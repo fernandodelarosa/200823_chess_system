@@ -26,10 +26,8 @@ public class Position {
 		this.column = column;
 	}
 
-	
-	
-	
-	
-
+	public String toString() {
+		return row + ", " + column;
+	}
 	
 }
